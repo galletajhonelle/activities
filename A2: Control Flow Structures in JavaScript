@@ -6,7 +6,45 @@ A. Discuss the following in not less than 5 Sentences EACH.
   
 What are the Control Flow Structures in JavaScript (Conditional)?
   ANSWER:
-    Very often when you write code, you want to perform different actions for different decisions.Including decision-making, loops, branching, and switching, dictate the execution order of code based on conditions.
+    In JavaScript, control flow structures for conditional execution enable developers to dictate the order of code execution based on specific conditions. 
+Very often when you write code, you want to perform different actions for different decisions. Including decision-making, loops, branching, and switching, 
+dictate the execution order of code based on conditions. The if statement, if...else, else if, and switch statement for handling multiple conditions. These 
+structures enable dynamic decision-making in applications.
+
+https://www.w3schools.com/js/js_if_else.asp
+
 What are the Control Flow Structures in JavaScript (Loop)?
+  ANSWER:
+    In JavaScript, control flow structures for looping enable the execution of a block of code repeatedly based on specified conditions. The building blocks 
+that manage the flow of your code. The for loop continuously execute a block of code to a set number of times. They include if...else statements, switch cases,
+and loops like do...while, while, and for. Together, these loop structures provide the flexibility needed to handle repetitive tasks efficiently in JavaScript.
+
+https://www.geeksforgeeks.org/javascript-control-flow-statements/
+
 For each Structure: present the Syntax and Sample implementations.
+
+In JavaScript, control flow structures for conditional execution include the if statement, which executes a block of code if a condition is true, as in if 
+(age >= 18) { console.log("You are an adult."); }. The if...else statement provides an alternative path, while the switch statement handles multiple conditions
+based on a single expression, such as switch (day) { case 1: console.log("Monday"); break; }. For looping, the for loop is used when the number of iterations is 
+known, like for (let i = 0; i < 5; i++) { console.log("Iteration: " + i); }. The while loop continues as long as a condition is true, as in while (i < 5) { console.log
+("Iteration: " + i); i++; }, and the do...while loop ensures at least one execution with do { /* code */ } while (condition);. The for...of loop simplifies iteration 
+over arrays, while the for...in loop iterates over object properties, providing essential tools for controlling execution flow in JavaScript.
+
+B. Discuss what is an Infinite Loop
+
+What is an infinite Loop?
+  ANSWER:
+    An infinite loop is a piece of code that keeps running forever as the terminating condition is never reached. Infinite loops can happen in various types of loops, 
+such as for, while, or do...while. This loop will keep printing the message indefinitely because the condition True is always true. Though of little practical significance, 
+you may also end up in an infinite loop by omitting all parts of the head of a for() block.  In older operating systems with cooperative multitasking,[5] infinite loops normally 
+caused the entire system to become unresponsive. 
+
+https://en.wikipedia.org/wiki/Infinite_loop
+
+How is an infinite Loop triggered and how to avoid the accidental implementation of an infinite loop?
+  ANSWER:
+    An infinite loop is triggered when the loop's exit condition is never met due to logical errors or improper variable management. This can happen due to logical errors, such
+as failing to update the loop variable or using incorrect comparison operators. To avoid it, ensure conditions change. Using clear variable names can help prevent confusion.
+
+https://itsourcecode.com/javascript-tutorial/what-is-javascript-infinite-loop-how-to-avoid-it/
 
